@@ -1,0 +1,30 @@
+# 编译生成的对象文件和输出文件
+*.o
+*.elf
+*.bin
+*.hex
+*.eep
+
+# 编译过程中的中间文件和依赖文件
+*.d
+*.lst
+*.map
+*.sym
+
+# Arduino IDE 相关
+.arduino/
+build/ # 某些环境下（如PlatformIO）的构建目录
+*.ino.bin
+*.ino.elf
+*.ino.with_bootloader.*
+
+# 编辑器或IDE特定目录
+.vscode/
+.idea/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 本地日志文件（如果使用J-Link等调试器）
+JLinkLog.txt
