@@ -13,7 +13,7 @@
 
 # Arduino IDE 相关
 .arduino/
-build/ # 某些环境下（如PlatformIO）的构建目录
+build/ 
 *.ino.bin
 *.ino.elf
 *.ino.with_bootloader.*
